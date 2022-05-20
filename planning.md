@@ -1,8 +1,10 @@
 PAGE 1:
 
+![alt text](index.png)
+
 Navigation with:
     home
-    about
+    contact
     projects
     contact
 
