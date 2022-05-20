@@ -2,12 +2,11 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Contact</title>
-        <link rel="stylesheet" href="styles.css">
+        <title>About</title>
+        <link rel="stylsheet" href="styles.css">
     </head>
-
     <body>
-        <nav class="contact-nav">
+        <nav class="about-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -16,30 +15,22 @@
             </ul>
         </nav>
 
-        <h1>Contact me!</h1>
-        <figure>
-            <a href="#" target="_blank"><img src="#" alt="nothing"></a>
-            <figcaption>Label1</figcaption>
-        </figure>
-        <figure>
-            <a href="#" target="_blank"><img src="#" alt="nothing"></a>
-            <figcaption>Label2</figcaption>
-        </figure>
-        <figure>
-            <a href="#" target="_blank"><img src="#" alt="nothing"></a>
-            <figcaption>Label3</figcaption>
-        </figure>
-        <figure>
-            <a href="#" target="_blank"><img src="#" alt="nothing"></a>
-            <figcaption>Label4</figcaption>
-        </figure>
-        <figure>
-            <a href="#" target="_blank"><img src="#" alt="nothing"></a>
-            <figcaption>Label5</figcaption>
-        </figure>
-        <figure>
-            <a href="#" target="_blank"><img src="#" alt="nothing"></a>
-            <figcaption>Label6</figcaption>
-        </figure>
+        <!--https://www.w3schools.com/html/html_forms.asp
+        https://www.w3schools.com/tags/tag_textarea.asp-->
+        <form>
+            <fieldset>
+                <label for="firstName">Test</label>
+                <input type="text" id="firstName" name="firstName">
+                <label for="lastName">Testtwo</label>
+                <input type="text" id="lastName" name="lastName">
+                <label for="emailAddress">Testthree</label>
+                <input type="email" id="emailAddress" name="emailAddress">
+                <label for="phoneNumber">Testthree</label>
+                <input type="email" id="phoneNumber" name="phoneNumber">
+                <label for="area">Comments?</label>
+                <textarea id="area" name="area" rows="5" cols="25"></textarea>
+                <button type="submit">Submit!</button>
+            </fieldset>
+        </form>
     </body>
 </html>
