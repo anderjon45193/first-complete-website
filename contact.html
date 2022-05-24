@@ -3,34 +3,50 @@
     <head>
         <meta charset="utf-8">
         <title>About</title>
-        <link rel="stylsheet" href="styles.css">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <nav class="about-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="projects.html">Projects</a></li>
+                <li><a href="learning.html">Learning</a></li>
                 <li><a href="about.html">About</a></li>
             </ul>
         </nav>
 
         <!--https://www.w3schools.com/html/html_forms.asp
         https://www.w3schools.com/tags/tag_textarea.asp-->
+        <h1>Contact me.</h1>
+        <p>Just a general form to connect, whether you have questions for me, about this website, my resume or any other questions!
+        </p>
         <form>
-            <fieldset>
-                <label for="firstName">Test</label>
+            <fieldset class="form">
+                <label for="firstName">First Name:</label>
                 <input type="text" id="firstName" name="firstName">
-                <label for="lastName">Testtwo</label>
+                <label for="lastName">Last Name:</label>
                 <input type="text" id="lastName" name="lastName">
-                <label for="emailAddress">Testthree</label>
+                <label for="emailAddress">Email:</label>
                 <input type="email" id="emailAddress" name="emailAddress">
-                <label for="phoneNumber">Testthree</label>
-                <input type="email" id="phoneNumber" name="phoneNumber">
-                <label for="area">Comments?</label>
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"> <!--https://www.w3schools.com/tags/att_input_type_tel.asp#:~:text=The%20%3Cinput%20type%3D%22tel,for%20entering%20a%20telephone%20number.-->
+                <label for="area">Comments</label>
                 <textarea id="area" name="area" rows="5" cols="25"></textarea>
+                <label for="permission">Permission to contact by phone</label>
+                <input class="permission" type="checkbox" id="permission" name="permission">
                 <button type="submit">Submit!</button>
             </fieldset>
         </form>
+
+        <footer class="contact-foot">
+            <nav class="footer-nav-contact">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="learning.html">Learning</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </footer>
     </body>
 </html>

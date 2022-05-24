@@ -1,0 +1,156 @@
+* {
+    background-color: #DCEED1;
+    color: #493843;
+    font-family: 'Mukta', sans-serif;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a {
+    color: #5BC0EB;
+}
+
+h1 {
+    font-size: 55px;
+    align-self: center;
+    margin-bottom: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 + p {
+    margin-top: 0;
+    padding: 0;
+    align-self: center;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 38px;
+    padding-top: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+}
+
+nav ul li {
+    padding: 15px 15px 15px 0;
+    margin-left: 0;
+}
+
+.front-page-nav {
+    color: oldlace;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+    padding: 25px;
+}
+
+h3 {
+    align-self: center;
+}
+
+p {
+    padding-left: 0;
+    padding-top: 15px;
+}
+
+.flex-nav > ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.library {
+    align-self: center;
+}
+
+.coffee {
+    height: 600px;
+    width: 500px;
+    align-self: center;
+}
+
+.properties, .values {
+    margin: auto;
+}
+
+.properties {
+    padding: 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: auto;
+    border: solid;
+    padding: 25px;
+}
+
+.form label {
+    text-align: center;
+}
+
+#permission {
+    align-self: center;
+    margin: 10px;
+    width: 25px;
+    height: 30px;
+}
+
+.footer-nav-contact ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* https://wetainment.com/articles/sticky-html-footer/ */
+.contact-foot {
+    margin-top: auto;
+}
+
+ol {
+    align-self: center;
+}
+
+/* https://stackoverflow.com/questions/27203574/is-there-any-way-to-remove-italic-effect-i-tag-using-css */
+.background {
+    font-style: normal;
+}
+
+/* https://stackoverflow.com/questions/37461794/aligning-images-on-two-rows-with-flexbox */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* https://stackoverflow.com/questions/37461794/aligning-images-on-two-rows-with-flexbox */
+.tomb, .volleyball, .tennis, .family, .friends, .pizza {
+    width: 500px;
+    height: 500px;
+}
+
+/* https://stackoverflow.com/questions/37461794/aligning-images-on-two-rows-with-flexbox */
+.column {
+    flex: 0 0 calc(33.33% - 400px);
+    margin: 5px;
+}
+
+figcaption {
+    margin-left: 20px;
+}

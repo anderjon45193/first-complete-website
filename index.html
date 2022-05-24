@@ -2,75 +2,106 @@
 <html>
     <header>
         <meta charset="utf-8">
-        <title>Jonathan Anderson</title>
+        <title>Jonathan Anderson's Website About HTML & CSS</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
     </header>
     <body>
         <nav class="front-page-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="projects.html">Projects</a></li>
+                <li><a href="learning.html">Learning</a></li>
                 <li><a href="about.html">About</a></li>
             </ul>
         </nav>
 
-        <h1>Jonathan Anderson</h1>
+        <h1>Jonathan Anderson's Website Project</h1>
+        <p>The Lord is merciful and gracious, slow to anger, and plenteous in mercy. - Psalm 103:8</p>
 
         <section>
-            <h2>Hello</h2>
-            <img src="#" alt="not exactly sure">
-            <img src="#" alt="not exactly sure">
-            <img src="#" alt="not exactly sure">
-        </section>
+            <h2>Purpose</h2>
+            <p>While taking the <a href="https://www.appacademy.io/course/app-academy-open">App Academy Open</a> bootcamp coursework, one of the first, slightly major, projects involves making a website using HTML and CSS. Using what I have learned in the course and, I suppose, if possible, elsewhere. In my efforts of creating this website, I will try to effectively implement a structure with HTML tags that make logical sense in labeling content, as well as,
+                provide an aesthetically-appeasing design. I believe, from my experience, that some of the most effective websites, in terms of useability and having a sense of encouragement for sustained duration of user interaction, involves the implementation
+                of a seemingly simple layout. Implementing a 'page flow', with structural elements that are easily distinguishable and purposeful. The CSS should be used to enhance the browser's default stylings, however, not "over doing it". This type of approach, I believe, contributes to
+                decreasing page speeds of the website, to which the faster, the better.
+            </p>
+            <p>Having a simple website with appropriate stylings producing load speeds that are faster than the market is worth the sacrifice, in terms of enhanced interactivity and/or style.</p>
+            <img class="coffee" src="coffee.jpg" alt="a cup of cofee">
+            </section>
 
         <section>
-            <h2>There</h2>
+            <h2>HTML</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nisi metus, vehicula nec urna id, feugiat vehicula erat. Mauris pharetra tempus erat, a tempus nunc. Phasellus magna elit, rutrum at nulla non, mollis porttitor dolor. Morbi vel mi sagittis, bibendum sapien quis, finibus ante. Aliquam posuere orci eu lacus fermentum, quis ornare nisl hendrerit. Suspendisse potenti. Vivamus pulvinar interdum dui vel scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum lobortis turpis sagittis, aliquam nulla in, consequat eros. Nullam sit amet turpis eget libero finibus luctus. Nam nunc mi, fringilla et felis at, dapibus dignissim nisl. Mauris faucibus vel mauris eget ultrices. Nam id enim risus. Pellentesque porta magna ac magna aliquam, a pellentesque mi fringilla.
+                In learning HTML, the primary purose is the meaningful structuring of content. If you look above this
+                line of text, you can see the title of this section is 'HTML'. However, when defining that specific title element within HTML,
+                that title is referred to as a 'Heading'; which vary in levels of importance, from a classifaction of 1-6. The title tag is reserved for the title of
+                the website, which can be seen by the text of a tab in your browser. In our case, it should state, my name, 'Jonathan Anderson'.
+                Moving on, this section of text here, that you have been reading, is wrapped in a paragraph tag, which is just a
+                opening, ('<'), and closing ('>') angle bracket, enclosed with the character, 'p', inside.
             </p>
             <p>
-                Phasellus fringilla justo neque, sagittis lobortis augue dapibus bibendum. In commodo turpis enim, quis ultricies nisi gravida sed. In hac habitasse platea dictumst. Integer dictum aliquam quam nec porttitor. Suspendisse commodo erat ac libero mattis posuere vulputate et nulla. Nullam eleifend, quam id vulputate ultricies, nisl felis tempus metus, ac consectetur turpis dui vitae massa. Donec eget venenatis quam. Sed vehicula lectus ligula, venenatis ultrices diam commodo eu. Etiam nec posuere ex, vel posuere ex. Nulla tempus est eu quam rhoncus finibus. Aliquam erat volutpat. Aliquam laoreet augue in dolor sagittis, ac aliquet mi maximus. In eget est felis. Ut eget neque facilisis, vestibulum est at, volutpat quam. Duis nibh lorem, aliquet at semper ac, aliquam nec neque. Vivamus euismod enim at orci sodales pretium sit amet sit amet sapien.
+                Now, we are a on a separate paragraph, as sort of implied by the break and apparent whitespace. This is done automatically by the browser, which is pretty nice, since, I would suppose, many websites are composed primarily of paragraphical text. Having to account for each separation in a paragraph in CSS, would just be another step to think about it. But, thankfully, it appears the browser does that for us.
             </p>
+
+            <p>These were just three HTML tags, briefly spoken about, that could account for a simple website provided that the appropriate boilermaker is in place.</p>
         </section>
 
         <section>
-            <h2>Hello!</h2>
-            <ul>
-                <li>One point here</li>
-                <li>One point here</li>
-                <li>One point here</li>
-                <li>One point here</li>
-                <li>One point here</li>
+            <h2>CSS</h2>
+            <p>Within CSS, it seems to be convention to have the styles separately located in a .css file, versus styling within the HTML file itself. This concept
+                goes along with the purpose of organization; containing 'like things' in the same place. Within CSS, there is something called a 'rule', which is what the
+                .css file is built of. A rule consists of a: css selector, declaration block utilizing curly braces, a property and a property value. There are many property-value pairs
+                that can be utilized to select different elements within the HTML document applying style, which allows for a large number of styling abilities.
+            </p>
+            <p>Selectors are one of the foundations of CSS, within HTML you can have classes, tags, and IDs. You can group similar groups
+                of content to style the same, or pin-point specific elements using their ID. Overriding styles when necessary.
+            </p>
+
+            <h3>Examples of CSS Properties</h3>
+            <ul class="properties">
+                <li>font-family</li>
+                <li>padding</li>
+                <li>font-color</li>
+                <li>margin</li>
+                <li>border</li>
             </ul>
-            <h2>There</h2>
-            <ul>
-                <li>One point here</li>
-                <li>One point here</li>
-                <li>One point here</li>
-                <li>One point here</li>
-                <li>One point here</li>
+            <h3>Examples of CSS Values</h3>
+            <ul class="values">
+                <li>'Times New Roman'</li>
+                <li>25px</li>
+                <li>grey</li>
+                <li>75%</li>
+                <li>solid</li>
             </ul>
-            <h2>World!</h2>
-            <ul>
-                <li>One point here</li>
-                <li>One point here</li>
-                <li>One point here</li>
-                <li>One point here</li>
-                <li>One point here</li>
-            </ul>
+
         </section>
 
         <section>
-            <img src="#" alt="not sure yet">
+            <h2>Important Resources</h2>
+            <p>When learning HTML & CSS, it can be beneficial to have a resource or set of resources to be able to reference
+                when you encounter an issue when developing your own website or another person's website. The <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a> includes a wide
+                array of information specific to HTML, CSS and others. To be able to use this resource effectively, I believe it is important to be able to
+                acutely know the specific issue you have. Being able to summarize your problem in a concise string of words can yield better results
+                versus falling down rabbit holes with poorly-formatted search queries, answering questions to which do not pertain to your original question.
+            </p>
+            <p>Tied to having a specific resource handy, is this idea of being able to google well. Having the skill to, as described before, summarize
+                your issue in a concise manner will have a better impact on your search results, in my opinion. A common website, you might come across
+                while researching your problem, is: <a href="https://stackoverflow.com/">Stack Overflow</a>, this idea of someone on the internet having, probably, asked your
+                question or a similar question in the past, allows an archived history of questions pertaining to web development, software engineering and the like! Which makes
+                the role of someone who works in a technology, to have a good shot at finding the solution to the pertinent problem, without, presently, having to consult with another person; potentially saving time/resources.
+            </p>
+            <img class="library" src="library.jpg" alt="bookshelfs with books">
         </section>
 
         <footer>
-            <nav class="footer-nav">
+            <nav class="flex-nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="learning.html">Learning</a></li>
                     <li><a href="about.html">About</a></li>
                 </ul>
             </nav>
